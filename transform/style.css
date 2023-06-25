@@ -1,0 +1,21 @@
+.wrapp {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.square {
+    width: 80px;
+    height: 80px;
+}
+
+.translate {
+    background-color: palegreen;
+    transition: background-color 1000ms cubic-bezier(0.17, 0.67, 0.83, 0.67),
+        transform 1000ms cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+
+.translate:hover {
+    background-color: rgb(251, 152, 211);
+    transform: scale(1.5);
+}
